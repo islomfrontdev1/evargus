@@ -1,0 +1,76 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+header a {
+  color: #737373;
+  text-transform: capitalize;
+}
+main h1 {
+  font-size: 50px;
+  font-weight: 900;
+}
+main button {
+  background: linear-gradient(95.2deg, #b90160 2.23%, #2e3192 99.51%);
+  padding: 10px 20px;
+  color: white;
+  border-radius: 7px;
+}
+main img {
+  max-width: 533px;
+}
+@media (max-width: 576px) {
+  .main-left {
+    background-image: url(./img/main-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+  }
+  main h1 {
+    font-size: 25px;
+  }
+  footer{
+    text-align: center;
+  }
+}
+
+.users {
+  background: linear-gradient(
+    94.31deg,
+    rgba(212, 20, 90, 0.25) 0.96%,
+    rgba(46, 49, 146, 0.25) 104.83%
+  );
+  padding: 80px 50px 30px;
+  margin: 100px 0;
+}
+.user-card {
+  box-shadow: 0px 0px 30px 0px #00000040;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 9px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.user-card img {
+  margin: -100px auto 0;
+}
+.col-span-3 lg:col-span-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer {
+  width: 1440px;
+  height: 165px;
+  top: 2167px;
+  left: -6px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+span{
+  font-weight: bold;
+}
